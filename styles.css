@@ -32,11 +32,28 @@ header p{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    border: 1px solid green;
-    grid-gap:20px
+    /* border: 1px solid green; */
+    height: 100px;
+    grid-gap:20px;
 }
 
 .items{
-    border: 1px solid brown;
+    border: 1px solid rgba(165, 42, 42, 0.144);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    
 }
+
+.items i{
+    width: 20%;
+    float: left;
+}
+
+.items p{
+    width: 80%;
+    float: left;
+    text-align: center;
+}
+
 
